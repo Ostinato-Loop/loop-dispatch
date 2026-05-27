@@ -1,24 +1,17 @@
 # loop-dispatch — Brand & Color
 
-**Accent Color:** `#fb923c`  
-**Category:** Logistics  
-**Description:** Last-mile, first class — smart carrier selection across GIG, Sendbox, Kwik.
+**Identity:** NEON BLUE (Logistics Infrastructure)
+**Atmosphere:** route intelligence, logistics infrastructure, realtime movement systems
 
-## Color Usage
 | Token | Value |
 |-------|-------|
-| Primary Accent | `#fb923c` |
-| Gradient Start | `#fb923c` |
-| Gradient End | darker shade |
-| Glow Color | `#fb923c80` (50% alpha) |
-| Background Glow | `#fb923c08` (3% alpha) |
-| Border Accent | `#fb923c20` (12% alpha) |
+| Primary | `#00BFFF` |
+| Accent | `#4DD8FF` |
+| Glow | `rgba(0,191,255,0.22)` |
+| Background | `#041923` |
+| Background Deep | `#020D13` |
 
-
-## Deployment
-- Production: Cloudflare Workers / Cloudflare Pages
-- API: api.rald.cloud (Hono Worker)
-- Web: rald.cloud (Cloudflare Pages)
-- CI/CD: GitHub Actions → Cloudflare (auto-sync on push to main)
-- Operated by: **LILCKY STUDIO LIMITED**
+**Gradient:** `linear-gradient(135deg, #4DD8FF, #00BFFF, #0090CC)`
+**Design cues:** logistics route maps, flow animations, movement telemetry, route pulse
+**Category:** Logistics
 
